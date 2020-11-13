@@ -1,0 +1,17 @@
+zuul.routes:
+  detailed_receiving:
+    authorization: 123123123
+    sensitiveHeaders: Cookie,Set-Cookie
+    url: http://localhost:8443
+  cycle_count:
+    authorization: 45634564356
+    sensitiveHeaders: Cookie,Set-Cookie
+    url: http://localhost:8443
+  inventory_adjustment:
+    authorization: 7685678567
+    sensitiveHeaders: Cookie,Set-Cookie
+    url: http://localhost:8443
+
+ribbon.eureka.enabled: false
+
+server.port: 8080
